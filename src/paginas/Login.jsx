@@ -35,7 +35,6 @@ const Login = () => {
         msg: error.response.data.msg,
         error: true
       })
-      return
     }
   }
 
