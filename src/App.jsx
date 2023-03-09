@@ -14,7 +14,7 @@ import CambiarPassword from './paginas/CambiarPassword'
 // Area Privada
 import AdministrarPacientes from './paginas/AdministrarPacientes'
 
-import { AuthProvider } from './context/authProvider' 
+import { AuthProvider } from './context/AuthProvider' 
 import { PacientesProvider } from './context/PacientesProvider' 
 
 function App() {
