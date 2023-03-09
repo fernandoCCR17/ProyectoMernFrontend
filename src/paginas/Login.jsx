@@ -22,6 +22,7 @@ const Login = () => {
         msg: 'Todos los campos son obligatorios',
         error: true
       })
+      return
     }
 
     try {
@@ -34,6 +35,7 @@ const Login = () => {
         msg: error.response.data.msg,
         error: true
       })
+      return
     }
   }
 
