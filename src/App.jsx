@@ -1,6 +1,6 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import AuthLayout from './layout/AuthLayout'
-import RutaProtegida from './layout/rutaProtegida'
+import AuthLayout from "./layout/AuthLayout"
+import RutaProtegida from './layout/RutaProtegida'
 
 // Area Publica
 import Login from './paginas/Login'
