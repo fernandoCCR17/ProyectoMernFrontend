@@ -1,14 +1,5 @@
 {
-  "routes": [
-    { "src": "/", "dest": "/" },
-    { "src": "/registrar", "dest": "/registrar" },
-    { "src": "/olvide-password", "dest": "/olvide-password" },
-    { "src": "/olvide-password/:token", "dest": "/olvide-password/:token" },
-    { "src": "/confirmar/:id", "dest": "/confirmar/:id" },
-    { "src": "/admin", "dest": "/admin" },
-    { "src": "/perfil", "dest": "/perfil" },
-    { "src": "/cambiar-password", "dest": "/cambiar-password" },
-
-    { "src": "/[^.]+", "dest": "/", "status": 200 }
+  "rewrites":  [
+    {"source": "/(.*)", "destination": "/"}
   ]
 }
